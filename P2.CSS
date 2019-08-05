@@ -1,0 +1,51 @@
+body
+{
+    font-family: Roboto;
+    background: gray;
+}
+div.container {
+  height: 300px;
+  width: 550px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+h1
+{
+  font-family: Roboto;
+  background: #1F030C;
+  color: white;
+  padding: 10px 100px;
+  padding-left:-80px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+h2 {
+  background: #1F030C;
+  color: white;
+  padding: 10px 100px;
+  padding-left:20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: normal;
+}
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+button:hover {
+  background: #4c2827;
+  border-bottom-color: #111;
+}	
+button:active {
+  position: relative;
+  top: 1px;
+}
